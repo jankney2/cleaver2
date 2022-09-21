@@ -8,7 +8,7 @@ from .utils import INSTANCE_FOLDER_PATH
 class BaseConfig(object):
     # Change these settings as per your needs
 
-    PROJECT = "flaskstarter"
+    PROJECT = "cleaver"
     PROJECT_NAME = "flaskstarter.domain"
     PROJECT_ROOT = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
@@ -18,7 +18,7 @@ class BaseConfig(object):
     DEBUG = False
     TESTING = False
 
-    SECRET_KEY = 'always-change-this-secret-key-with-random-alpha-nums'
+    SECRET_KEY = 'my-chemical-romance-99-22-00-19-13-$%#*%#('
 
 
 class DefaultConfig(BaseConfig):
